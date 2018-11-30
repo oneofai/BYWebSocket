@@ -7,8 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "SRWebSocket.h"
-
+#import <SocketRocket/SocketRocket.h>
 
 #define BYWebSocketShareManager [BYWebSocket shareManager]
 
