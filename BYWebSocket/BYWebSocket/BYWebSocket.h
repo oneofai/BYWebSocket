@@ -7,12 +7,8 @@
 //
 
 #import <Foundation/Foundation.h>
-
-#if __has_include(<SRWebSocket/SRWebSocket.h>)
-#import <SRWebSocket/SRWebSocket.h>
-#else
 #import "SRWebSocket.h"
-#endif
+
 
 #define BYWebSocketShareManager [BYWebSocket shareManager]
 
